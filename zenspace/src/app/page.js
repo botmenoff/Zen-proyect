@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <main >
-     <p>Buenas</p>
+      <h1>BUENAS TARDES</h1>
     </main>
   )
 }
