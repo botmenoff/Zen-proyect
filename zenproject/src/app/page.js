@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <main >
-      <h1>BUENAS TARDES</h1>
+    <main>
+      <h1>Buenas tardes</h1>
     </main>
   )
 }
