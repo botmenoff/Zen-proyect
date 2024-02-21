@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar } from '../Components/NavBar';
+import { NavBar } from '../Components/NavBar/NavBar';
 export const Home = () => {
     return (
         <div>
@@ -8,4 +8,3 @@ export const Home = () => {
         </div>
     )
 }
-
