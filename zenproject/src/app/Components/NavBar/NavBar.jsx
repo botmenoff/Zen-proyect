@@ -4,11 +4,11 @@ import NavBarcss from './NavBar.css'
 export const NavBar = () => {
   return (
     <nav id='navBar'>
-      <div className='navBar-component'><p>Tareas</p></div>
-      <div className='navBar-component'><p>Calendario</p></div>
-      <div className='navBar-component'><p>Playlist</p></div>
-      <div className='navBar-component'><p>Graficos</p></div>
-      <div className='navBar-component'><img src=''></img></div>
+      <a className='navBar-component'><p>Tareas</p></a>
+      <a className='navBar-component'><p>Calendario</p></a>
+      <a className='navBar-component'><p>Playlist</p></a>
+      <a className='navBar-component'><p>Graficos</p></a>
+      <a className='navBar-component'><img src=''></img></a> {/* Poner el avatar del usuario */}
     </nav>
   )
 }
