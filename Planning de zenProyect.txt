@@ -1,0 +1,31 @@
+Planning de zenProyect
+
+---------------
+FUNCIONALIDADES
+---------------
+· Poder añadir tareas con o sin medir tiempo
+· Tener un contador en las tareas que guarde las tareas y el tiempo que has estado en ellas
+· Poder poner muica relajante (con combinaciones de teclas poder controlar siguienta cancion etc)
+· Generar graficos de las tareas que has estado haciendo
+· Tener un calendario
+
+-----------
+BBDD SCHEME
+-----------
+GroupTask
+-id
+-[Task]
+
+Task
+-id
+-name
+-timeSpent
+-createdAt
+-updatedAt
+
+Calendar
+-id
+-
+
+User (rehusable-backend)
+
