@@ -1,0 +1,19 @@
+:root {
+    --font-family: 'Roboto', sans-serif; /* Specify the default font family */
+    --primary-color: #007bff; /* Define primary color */
+    --secondary-color: #6c757d; /* Define secondary color */
+    --background-color: #f8f9fa; /* Define background color */
+    --text-color: #333; /* Define text color */
+    --border-radius: 4px; /* Define border radius */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Define box shadow */
+    /* Add more global variables and styles as needed */
+    --main-color: rgb(0, 0, 255);
+    --main-color-hover: rgb(78, 78, 255);
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+}
